@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 800px;
+    margin: auto;
+   
+}
+
+body{
+    background-image: url("fundo 1.jpg");
+    max-width:1400px;
+    min-width:720px;
+}
+/* Formatação do texto*/
+
+.texto p {
+text-align: center;
+font-size: 16px;
+margin:auto;
+padding: 120px 20px;
+max-width:1400px;
+min-width:720px;
+
+}
+/*logo do site*/
+
+#logo{
+    background-image: url("WhatsApp_Image_2021-05-21_at_20.10.47-removebg-preview\ \(1\).png")no-repeat;
+    margin:auto;
+}
+
+/*Formatação do menu horizontal*/
+
+ul{
+    margin:auto;
+    padding:auto;
+    list-style:none;
+    background:#159cb0 url("fundo-horizontal.png")repeat-x;
+    float:left
+}
+
+li{
+    float:left;
+    
+}
+/**********************
+Formatação de links*/
+ul li{
+    float:left;
+    
+}
+
+ul a{
+    display: block;
+    padding:0 2em;
+    line-height:2.2em;
+    text-decoration:none;
+    color:#fff;
+    
+    
+    
+}
+ul .primeiro a{
+    background:none;
+    
+}
+ul a:hover{
+    color:#085662;
+    background:#44cade;
+}
